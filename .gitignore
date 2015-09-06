@@ -13,4 +13,4 @@
 /tmp
 
 # Ignore rethinkdb data
-/rethinkdb_data/*
+rethinkdb_data
