@@ -6,5 +6,5 @@ class Group
   field :description, :type => String
   field :active, :type => Boolean
   belongs_to :user
-  belongs_to :article
+  
 end
