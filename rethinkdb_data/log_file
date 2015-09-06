@@ -1,0 +1,72 @@
+2015-09-04T23:00:31.825349000 0.306188s notice: Recursively removing directory /Users/todd/RAILS/santa/rethinkdb_data/tmp
+2015-09-04T23:00:31.827364000 0.308206s notice: Initializing directory /Users/todd/RAILS/santa/rethinkdb_data
+2015-09-04T23:00:31.827426000 0.308264s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/todd/RAILS/santa/rethinkdb_data' did not already exist or is empty.)
+2015-09-04T23:00:31.827726000 0.308565s notice: Running rethinkdb 2.1.2 (CLANG 6.1.0 (clang-602.0.53))...
+2015-09-04T23:00:31.832494000 0.313332s notice: Running on Darwin 14.5.0 x86_64
+2015-09-04T23:00:31.832522000 0.313359s notice: Loading data from directory /Users/todd/RAILS/santa/rethinkdb_data
+2015-09-04T23:00:31.969759000 0.450596s info: Automatically using cache size of 1351 MB
+2015-09-04T23:00:31.970624000 0.451462s notice: Listening for intracluster connections on port 29015
+2015-09-04T23:00:31.973872000 0.454710s notice: Listening for client driver connections on port 28015
+2015-09-04T23:00:31.974485000 0.455323s notice: Listening for administrative HTTP connections on port 8080
+2015-09-04T23:00:31.974487000 0.455325s notice: Listening on addresses: 127.0.0.1, ::1
+2015-09-04T23:00:31.974491000 0.455328s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-09-04T23:00:31.974494000 0.455331s notice: Server ready, "TR_MBP_local_4nq" 8f781be4-9ebb-4254-8c44-7eb13a94370e
+2015-09-04T23:02:44.501286000 132.985923s notice: Server got SIGINT from pid 77288, uid 502; shutting down...
+2015-09-04T23:02:44.501440000 132.986076s notice: Shutting down client connections...
+2015-09-04T23:02:44.501653000 132.986289s notice: All client connections closed.
+2015-09-04T23:02:44.501660000 132.986296s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-09-04T23:02:44.504494000 132.989131s notice: Storage engine shut down.
+2015-09-04T23:02:56.938358000 0.267484s notice: Running rethinkdb 2.1.2 (CLANG 6.1.0 (clang-602.0.53))...
+2015-09-04T23:02:56.942554000 0.271675s notice: Running on Darwin 14.5.0 x86_64
+2015-09-04T23:02:56.942595000 0.271715s notice: Loading data from directory /Users/todd/RAILS/santa/rethinkdb_data
+2015-09-04T23:02:56.986491000 0.315611s info: Automatically using cache size of 1234 MB
+2015-09-04T23:02:56.986925000 0.316045s notice: Listening for intracluster connections on port 29015
+2015-09-04T23:02:56.988147000 0.317267s notice: Listening for client driver connections on port 28015
+2015-09-04T23:02:56.988259000 0.317379s notice: Listening for administrative HTTP connections on port 8080
+2015-09-04T23:02:56.988263000 0.317382s notice: Listening on addresses: 127.0.0.1, ::1
+2015-09-04T23:02:56.988263001 0.317383s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-09-04T23:02:56.988266000 0.317385s notice: Server ready, "TR_MBP_local_4nq" 8f781be4-9ebb-4254-8c44-7eb13a94370e
+2015-09-04T23:03:05.434784000 8.764121s notice: Server got SIGINT from pid 77288, uid 502; shutting down...
+2015-09-04T23:03:05.434870000 8.764207s notice: Shutting down client connections...
+2015-09-04T23:03:05.434945000 8.764282s notice: All client connections closed.
+2015-09-04T23:03:05.434948000 8.764285s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-09-04T23:03:05.435135000 8.764472s notice: Storage engine shut down.
+2015-09-04T23:03:23.618365000 0.004283s notice: Running rethinkdb 2.1.2 (CLANG 6.1.0 (clang-602.0.53))...
+2015-09-04T23:03:23.621521000 0.007437s notice: Running on Darwin 14.5.0 x86_64
+2015-09-04T23:03:23.621590000 0.007505s notice: Loading data from directory /Users/todd/RAILS/santa/rethinkdb_data
+2015-09-04T23:03:23.655422000 0.041337s info: Automatically using cache size of 1236 MB
+2015-09-04T23:03:23.655989000 0.041903s notice: Listening for intracluster connections on port 29015
+2015-09-04T23:03:23.657312000 0.043227s notice: Listening for client driver connections on port 28015
+2015-09-04T23:03:23.657460000 0.043375s notice: Listening for administrative HTTP connections on port 8080
+2015-09-04T23:03:23.657462000 0.043376s notice: Listening on addresses: 127.0.0.1, ::1
+2015-09-04T23:03:23.657464000 0.043379s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-09-04T23:03:23.657467000 0.043381s notice: Server ready, "TR_MBP_local_4nq" 8f781be4-9ebb-4254-8c44-7eb13a94370e
+2015-09-04T23:03:28.912149000 5.298172s info: Table 2504a0f0-5dd8-4b97-9927-ac0726242d78: Added replica on this server.
+2015-09-04T23:03:30.005751000 6.391829s info: Table 2504a0f0-5dd8-4b97-9927-ac0726242d78: Starting a new Raft election for term 1.
+2015-09-04T23:03:30.027721000 6.413799s info: Table 2504a0f0-5dd8-4b97-9927-ac0726242d78: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-04T23:03:31.042159000 7.428237s info: Table 2504a0f0-5dd8-4b97-9927-ac0726242d78: Configuration is changing.
+2015-09-04T23:03:31.266665000 7.652797s info: Table df989379-1730-4bf0-a1e9-c1977abd680a: Added replica on this server.
+2015-09-04T23:03:32.995819000 9.382005s info: Table df989379-1730-4bf0-a1e9-c1977abd680a: Starting a new Raft election for term 1.
+2015-09-04T23:03:33.021006000 9.407192s info: Table df989379-1730-4bf0-a1e9-c1977abd680a: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-04T23:03:34.546213000 10.932398s info: Table df989379-1730-4bf0-a1e9-c1977abd680a: Configuration is changing.
+2015-09-04T23:03:34.554144000 10.940329s info: Table df989379-1730-4bf0-a1e9-c1977abd680a: Configuration is changing.
+2015-09-04T23:03:34.773286000 11.159471s info: Table 7b0b73fd-52b4-4e65-b2d9-7421b0fe6603: Added replica on this server.
+2015-09-04T23:03:36.220178000 12.606418s info: Table 7b0b73fd-52b4-4e65-b2d9-7421b0fe6603: Starting a new Raft election for term 1.
+2015-09-04T23:03:36.247157000 12.633398s info: Table 7b0b73fd-52b4-4e65-b2d9-7421b0fe6603: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-04T23:03:36.904742000 13.291036s info: Table 7b0b73fd-52b4-4e65-b2d9-7421b0fe6603: Configuration is changing.
+2015-09-04T23:03:36.906884000 13.293179s info: Table 7b0b73fd-52b4-4e65-b2d9-7421b0fe6603: Configuration is changing.
+2015-09-04T23:03:36.918180000 13.304474s info: Table 2504a0f0-5dd8-4b97-9927-ac0726242d78: Configuration is changing.
+2015-09-04T23:03:37.091222000 13.477517s info: Table df989379-1730-4bf0-a1e9-c1977abd680a: Configuration is changing.
+2015-09-04T23:03:37.159584000 13.545878s info: Table df989379-1730-4bf0-a1e9-c1977abd680a: Configuration is changing.
+2015-09-05T11:30:12.200596000 4572.766770s info: Table aea3aa4d-9fef-4d79-8d02-7bd9113a8a68: Added replica on this server.
+2015-09-05T11:30:14.041568000 4574.607795s info: Table aea3aa4d-9fef-4d79-8d02-7bd9113a8a68: Starting a new Raft election for term 1.
+2015-09-05T11:30:14.064502000 4574.630729s info: Table aea3aa4d-9fef-4d79-8d02-7bd9113a8a68: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-05T11:30:15.478692000 4576.044974s info: Table aea3aa4d-9fef-4d79-8d02-7bd9113a8a68: Configuration is changing.
+2015-09-05T21:47:40.687273000 5272.174616s info: Table ff2ba0e9-0c2f-4646-b3c5-070d12c1461b: Added replica on this server.
+2015-09-05T21:47:42.219082000 5273.706476s info: Table ff2ba0e9-0c2f-4646-b3c5-070d12c1461b: Starting a new Raft election for term 1.
+2015-09-05T21:47:42.242395000 5273.729788s info: Table ff2ba0e9-0c2f-4646-b3c5-070d12c1461b: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-05T21:47:42.833842000 5274.321236s info: Table ff2ba0e9-0c2f-4646-b3c5-070d12c1461b: Configuration is changing.
+2015-09-05T21:47:42.840462000 5274.327856s info: Table ff2ba0e9-0c2f-4646-b3c5-070d12c1461b: Configuration is changing.
+2015-09-05T21:47:42.843745000 5274.331138s info: Table df989379-1730-4bf0-a1e9-c1977abd680a: Configuration is changing.
+2015-09-05T21:47:42.846379000 5274.333773s info: Table 7b0b73fd-52b4-4e65-b2d9-7421b0fe6603: Configuration is changing.
+2015-09-05T21:47:42.848274000 5274.335668s info: Table 2504a0f0-5dd8-4b97-9927-ac0726242d78: Configuration is changing.
