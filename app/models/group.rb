@@ -7,4 +7,6 @@ class Group
   field :active, :type => Boolean
   belongs_to :user
   
+  attr_accessor :title, :description, :active, :user_id
+  
 end
