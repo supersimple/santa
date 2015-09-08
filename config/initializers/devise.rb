@@ -259,4 +259,11 @@ Devise.setup do |config|
   # When using OmniAuth, Devise cannot automatically set OmniAuth path,
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
+  
+  # config.omniauth :google, '222313445808-2sa5b45od8lju3vavbpapmdkgomvn6s0.apps.googleusercontent.com', 'DbbkBhfQ7hu31Q_v9XOK9E6r', scope: 'user'
+
+  OMNIAUTH_CONFIG = File.exists?("#{Rails.root}/config/omniauth.yml") ? YAML.load(File.read("#{Rails.root}/config/omniauth.yml")) : {}
+  OMNIAUTH_CONFIG.each do |k, oa|
+    config.omniauth k.to_sym, "#{oa['client_id']}", "#{oa['client_secret']}", scope: "#{oa['scope']}"
+  end
 end
