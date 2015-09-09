@@ -1,12 +1,11 @@
 class CallbacksController < Devise::OmniauthCallbacksController
   
-  ####TODO: use dynamic methods to generate this code. ####
-  def google
-    @user = User.from_omniauth(request.env["omniauth.auth"])
-    sign_in_and_redirect @user
+  #generate instance methods for each auth provider in the config
+  OMNIAUTH_CONFIG.keys.each do |method_name|
+    define_method method_name do
+      @user = User.from_omniauth(request.env["omniauth.auth"])
+      sign_in_and_redirect @user
+    end
   end
-  def twitter
-    @user = User.from_omniauth(request.env["omniauth.auth"])
-    sign_in_and_redirect @user
-  end
+    
 end
