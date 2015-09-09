@@ -9,4 +9,8 @@ class Group
   
   attr_accessor :title, :description, :active, :user_id
   
+  def shuffle_members
+    
+  end
+  
 end

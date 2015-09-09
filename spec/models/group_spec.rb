@@ -12,5 +12,11 @@ RSpec.describe Group, :type => :model do
     end
 
   end
+  
+  describe '.shuffle_members' do
+    it 'returns pairs of givers and receivers where no pairs contain the same user' do
+      
+    end
+  end
 
 end
