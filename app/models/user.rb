@@ -40,6 +40,9 @@ class User
   # field :locked_at,       :type => Time
   include NoBrainer::Document::Timestamps
   
+  has_many :groups
+  
+  
   def self.from_omniauth(auth)
       where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
         user.provider = auth.provider
