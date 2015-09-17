@@ -262,6 +262,6 @@ Devise.setup do |config|
   
   OMNIAUTH_CONFIG = File.exists?("#{Rails.root}/config/omniauth.yml") ? YAML.load(File.read("#{Rails.root}/config/omniauth.yml")) : {}
   OMNIAUTH_CONFIG.each do |k, oa|
-    config.omniauth k.to_sym, "#{oa['client_id']}", "#{oa['client_secret']}", scope: "#{oa['scope']}"
+    config.omniauth k.to_sym, "#{oa['client_id']}", "#{oa['client_secret']}", {}
   end
 end

@@ -4,7 +4,7 @@ class User
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
-         :omniauthable, :omniauth_providers => [:google, :twitter]
+         :omniauthable, :omniauth_providers => [:google_oauth2, :twitter]
 
   ## Database authenticatable
   field :email,              :type => String, :default => ""
@@ -39,6 +39,8 @@ class User
   # field :unlock_token,    :type => String # Only if unlock strategy is :email or :both
   # field :locked_at,       :type => Time
   include NoBrainer::Document::Timestamps
+  
+  validates :provider, uniqueness: {:scope => :uid }
   
   has_many :groups
   
